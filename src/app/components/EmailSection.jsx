@@ -27,13 +27,13 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://www.linkedin.com/in/marriane-dela-ombria?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZL2sf05OTuqnMKFUF2pUgA%3D%3D">
+          <Link target="_blank" href="https://www.linkedin.com/in/marriane-dela-ombria?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZL2sf05OTuqnMKFUF2pUgA%3D%3D">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
-          <Link href="mailto:ayhandelaombria@gmail.com">
+          <Link target="_blank" href="mailto:ayhandelaombria@gmail.com">
             <Image src={GmailIcon} alt="Gmail Icon" />
           </Link>
-          <Link href="https://m.me/ahyandelaombria">
+          <Link target="_blank" href="https://m.me/ahyandelaombria">
             <Image src={FacebookIcon} alt="Facebook Icon" />
           </Link>
         </div>

@@ -7,7 +7,7 @@ const CoverLetterSection = () => {
         <h2 className="text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
           Message
         </h2>
-        <div className="text-white flex gap-3 flex-row justify-center items-center md:gap-2 py-6 flex-wrap">
+        <div className="italic text-white flex gap-3 flex-row justify-center items-center md:gap-2 py-6 flex-wrap">
               &quot;Thank you for taking the time to learn more about me. I am a work in progress, driven by an unwavering commitment to continuous improvement and the pursuit of becoming an invaluable asset to any organization. My goal is to make substantial contributions by showcasing an exceptional attitude, refined skills, deep knowledge, expertise, and unique talents.
         In my quest for professional growth, I am actively searching for opportunities that nurture trust and collaboration. These are the environments where I can confidently demonstrate my ability to consistently deliver flawless and timely results. My journey is guided by unwavering dedication to continuous learning, a relentless pursuit of objectives, and an unshakeable belief in my capabilities.
         I draw my inspiration from tackling challenges head-on, employing critical thinking, making well-informed decisions, and continually refining my skills through the principles of Kaizen. I am motivated by the prospect of taking on demanding responsibilities, and I wholeheartedly embrace my role as a dedicated, supportive, and approachable leader.

@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
+import { skillsData } from "./SkillsSection";
+import { TAB_DATA } from "./AboutSection";
 
 const AnimatedNumbers = dynamic(
   () => {
@@ -9,10 +11,26 @@ const AnimatedNumbers = dynamic(
   { ssr: false }
 );
 
+const skillsWithTagSkills = skillsData.filter(item => item.tag.includes("Skills"));
+
+const CertificationsCount = () => {
+  // Find the "Certifications" tab
+  const certificationsTab = TAB_DATA.find(tab => tab.title === "Certifications");
+  if (certificationsTab && certificationsTab.content) {
+    // Count the number of <li> elements within the content
+    const liCount = React.Children.toArray(certificationsTab.content.props.children).filter(
+      child => child.type === "li"
+    ).length;
+    return liCount;
+  } else {
+    return 0; // Return 0 if the tab is not found or has no content
+  }
+}
+
 const achievementsList = [
   {
     metric: "Skills",
-    value: "4",
+    value: skillsWithTagSkills.length,
     postfix: "",
   },
   // {
@@ -20,10 +38,10 @@ const achievementsList = [
   //   metric: "Users",
   //   value: "100,000",
   // },
-  // {
-  //   metric: "Awards",
-  //   value: "7",
-  // },
+  {
+    metric: "Certifications",
+    value: CertificationsCount(),
+  },
   {
     metric: "Years of Experience",
     value: "4",

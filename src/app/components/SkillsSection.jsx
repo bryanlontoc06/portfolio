@@ -4,7 +4,7 @@ import SkillCard from "./SkillCard";
 import SkillTag from "./SkillTag";
 import { motion, useInView } from "framer-motion";
 
-const skillsData = [
+export const skillsData = [
   {
     id: 1,
     title: "Security Information and Event Management, or SIEM",
