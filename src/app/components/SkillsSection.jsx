@@ -10,7 +10,7 @@ const skillsData = [
     title: "Security Information and Event Management, or SIEM",
     description: "Is a security solution that helps organizations recognize and address potential security threats and vulnerabilities before they have a chance to disrupt business operations.",
     image: "/images/projects/siem.jpg",
-    tag: ["All", "CyberSecurity"],
+    tag: ["All", "Skills"],
     url: "https://www.ibm.com/topics/siem",
   },
   {
@@ -18,7 +18,7 @@ const skillsData = [
     title: "Security Orchestration, Automation and Response (SOAR)",
     description: "Technology helps coordinate, execute and automate tasks between various people and tools all within a single platform.",
     image: "/images/projects/soar3.jpg",
-    tag: ["All", "CyberSecurity"],
+    tag: ["All", "Skills"],
     url: "https://www.ibm.com/topics/security-orchestration-automation-response#:~:text=SOAR%E2%80%94for%20security%20orchestration%2C%20automation,track%20and%20respond%20to%20cyberthreats.",
   },
   {
@@ -26,7 +26,7 @@ const skillsData = [
     title: "Firewall",
     description: "Is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules.",
     image: "/images/projects/firewall.jpg",
-    tag: ["All", "CyberSecurity"],
+    tag: ["All", "Skills"],
     url: "https://www.fortinet.com/resources/cyberglossary/firewall",
   },
   {
@@ -34,7 +34,7 @@ const skillsData = [
     title: "Vulnerability Management",
     description: "Is the process of continuously identifying, evaluating, treating, and reporting vulnerabilities.",
     image: "/images/projects/vulnmang.png",
-    tag: ["All", "CyberSecurity"],
+    tag: ["All", "Skills"],
     url: "https://www.rapid7.com/fundamentals/vulnerability-management-and-scanning/#:~:text=Vulnerability%20management%20is%20the%20process,minimizing%20their%20%22attack%20surface.%22",
   },
   {
@@ -105,8 +105,8 @@ const SkillsSection = () => {
           />
           <SkillTag
             onClick={handleTagChange}
-            name="CyberSecurity"
-            isSelected={tag === "CyberSecurity"}
+            name="Skills"
+            isSelected={tag === "Skills"}
           />
           <SkillTag
             onClick={handleTagChange}

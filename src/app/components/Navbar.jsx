@@ -8,6 +8,10 @@ import * as Scroll from 'react-scroll';
 
 const navLinks = [
   {
+    title: "Home",
+    path: "home",
+  },
+  {
     title: "About",
     path: "about",
   },
@@ -50,7 +54,7 @@ const Navbar = () => {
       }}
     >
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link
+        {/* <Link
           // href={"/"}
           to="hero"
           smooth={true}
@@ -58,7 +62,7 @@ const Navbar = () => {
           className="text-2xl md:text-5xl text-white font-semibold"
         >
           LOGO
-        </Link>
+        </Link> */}
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
