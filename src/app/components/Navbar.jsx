@@ -20,6 +20,10 @@ const navLinks = [
     path: "skills",
   },
   {
+    title: "Letter",
+    path: "letter",
+  },
+  {
     title: "Contact",
     path: "contact",
   },

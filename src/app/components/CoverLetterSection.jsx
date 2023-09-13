@@ -2,7 +2,7 @@ import React from 'react'
 
 const CoverLetterSection = () => {
   return (
-    <section>
+    <section id="letter">
       <div className="items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 text-center">
         <h2 className="text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
           Message
