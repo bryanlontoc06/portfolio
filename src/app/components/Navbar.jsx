@@ -43,7 +43,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-opacity-100"
+    <nav className="fixed mx-auto top-0 left-0 right-0 z-50 bg-opacity-100"
       style={{
         background: `${show || navbarOpen ? '#121212' : 'rgba(0, 0, 0, 0)'}`,
         border: `1px solid ${show || navbarOpen ? '#33353F' : 'rgba(0, 0, 0, 0)' }`,
@@ -54,7 +54,7 @@ const Navbar = () => {
           // href={"/"}
           to="hero"
           smooth={true}
-          style={{cursor: 'pointer;'}}
+          style={{cursor: 'pointer'}}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
           LOGO

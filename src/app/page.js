@@ -10,15 +10,15 @@ import AchievementsSection from "./components/AchievementsSection";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
-      <Navbar />
-        <HeroSection />
-      <div className="container mx-auto px-12 py-4 bg-[#121212]">
-        <AchievementsSection />
-        <AboutSection />
-        <SkillsSection />
-        <EmailSection />
-      </div>
-      <Footer />
+       <Navbar />
+         <HeroSection />
+       <div className="mx-auto container max-w-full px-16 py-4 bg-[#121212]">
+         <AchievementsSection />
+         <AboutSection />
+         <SkillsSection />
+         <EmailSection />
+       </div>
+       <Footer />
     </main>
   );
 }

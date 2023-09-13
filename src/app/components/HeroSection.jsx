@@ -45,7 +45,7 @@ const HeroSection = () => {
               Your browser does not support HTML5 video.
         </video>
       </div>
-      <section name="hero" className="lg:py-16 flex container h-screen mx-auto pt-20 px-12 py-4" style={{background: "rgba(0, 0, 0, 0.8);"}}>
+      <section name="hero" className="lg:py-16 flex max-w-full h-screen justify-center pt-20 px-16 py-4" style={{background: "rgba(0, 0, 0, 0.8)"}}>
         <div className="grid grid-cols-1 sm:grid-cols-12">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -101,7 +101,7 @@ const HeroSection = () => {
             transition={{ duration: 0.5 }}
             className="col-span-4 place-self-center mt-4 lg:mt-0"
           >
-            <div className="rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative" style={{background: "rgba(0, 0, 0, 0.8);"}}>
+            <div className="rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative" style={{background: "rgba(0, 0, 0, 0.8)"}}>
               <Image
                 src="/images/hero-image.png"
                 alt="hero image"
