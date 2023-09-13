@@ -2,7 +2,7 @@
 import * as Scroll from 'react-scroll';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-const NavLink = ({ href, title }) => {
+const NavLink = ({ href, title, setNavbarOpen }) => {
   let Link = Scroll.Link;
   return (
     <Link
@@ -10,6 +10,7 @@ const NavLink = ({ href, title }) => {
       to={href}
       smooth={true}
       style={{cursor: 'pointer'}}
+      onClick={() => setNavbarOpen(false)}
       className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
     >
       {title}
