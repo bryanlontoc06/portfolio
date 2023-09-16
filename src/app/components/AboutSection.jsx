@@ -29,8 +29,9 @@ export const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li><a href="https://drive.google.com/drive/folders/13FQ-fvEAvXTl3R54Z1DRes_RuQrqOcLZ?usp=sharing" target="_blank">Palo Alto</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1UUs-JplKIHxqYb_b378SCvNC5kAchIHL?usp=sharing" target="_blank">Fortinet NSE</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1kUC6EUMvpBcERxoaeifchwkszIazLmHd?usp=sharing" target="_blank">Certified Lean Six Sigma Yellow Belt</a></li>
       </ul>
     ),
   },
